@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Beta.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>bitcode</key>
+			<false/>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>C58AC54FB0A35617E6A8AD294F05ED9FCD1FB50A</string>
+				<key>dateExpires</key>
+				<string>2019. 5. 14.</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>bitcode</key>
+					<false/>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>C58AC54FB0A35617E6A8AD294F05ED9FCD1FB50A</string>
+						<key>dateExpires</key>
+						<string>2019. 5. 14.</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>Alamofire.framework</string>
+					<key>symbols</key>
+					<true/>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>C7GUZQPQHZ</string>
+						<key>name</key>
+						<string>Ki Beom Nam</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>C7GUZQPQHZ.nkb.Beta</string>
+				<key>beta-reports-active</key>
+				<true/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>C7GUZQPQHZ</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>C7GUZQPQHZ.nkb.Beta</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>Beta.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>0fc6f5fe-9c0e-4da0-99b5-503a85964dc1</string>
+				<key>name</key>
+				<string>iOS Team Store Provisioning Profile: nkb.Beta</string>
+			</dict>
+			<key>symbols</key>
+			<true/>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>C7GUZQPQHZ</string>
+				<key>name</key>
+				<string>Ki Beom Nam</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
