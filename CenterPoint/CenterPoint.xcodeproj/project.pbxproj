@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0363AB623A79A2DFD69142D1 /* Pods_CenterPoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AECA60251E43A3F93159E00 /* Pods_CenterPoint.framework */; };
+		2673C7D763AE9E34AAAB8ABB /* Pods_CenterPoint_CenterPointUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7E5FCB6126C1149B44F7EE /* Pods_CenterPoint_CenterPointUITests.framework */; };
+		A6BEEC75F830EE0152CBA60D /* Pods_CenterPointTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5F86D8B93F034FCB8CF7C7 /* Pods_CenterPointTests.framework */; };
+		C1B2F64A25ECFACB005622FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B2F64925ECFACB005622FD /* AppDelegate.swift */; };
+		C1B2F64C25ECFACB005622FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B2F64B25ECFACB005622FD /* SceneDelegate.swift */; };
+		C1B2F64E25ECFACB005622FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B2F64D25ECFACB005622FD /* ViewController.swift */; };
+		C1B2F65125ECFACB005622FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1B2F64F25ECFACB005622FD /* Main.storyboard */; };
+		C1B2F65325ECFACD005622FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1B2F65225ECFACD005622FD /* Assets.xcassets */; };
+		C1B2F65625ECFACD005622FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1B2F65425ECFACD005622FD /* LaunchScreen.storyboard */; };
+		C1B2F66125ECFACD005622FD /* CenterPointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B2F66025ECFACD005622FD /* CenterPointTests.swift */; };
+		C1B2F66C25ECFACD005622FD /* CenterPointUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B2F66B25ECFACD005622FD /* CenterPointUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1B2F65D25ECFACD005622FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1B2F63E25ECFACB005622FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1B2F64525ECFACB005622FD;
+			remoteInfo = CenterPoint;
+		};
+		C1B2F66825ECFACD005622FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1B2F63E25ECFACB005622FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1B2F64525ECFACB005622FD;
+			remoteInfo = CenterPoint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F1CA94128354BF9B9C76A22 /* Pods-CenterPoint-CenterPointUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CenterPoint-CenterPointUITests.release.xcconfig"; path = "Target Support Files/Pods-CenterPoint-CenterPointUITests/Pods-CenterPoint-CenterPointUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2AECA60251E43A3F93159E00 /* Pods_CenterPoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CenterPoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C5F86D8B93F034FCB8CF7C7 /* Pods_CenterPointTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CenterPointTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7946442BC8E8931EFA34C358 /* Pods-CenterPoint-CenterPointUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CenterPoint-CenterPointUITests.debug.xcconfig"; path = "Target Support Files/Pods-CenterPoint-CenterPointUITests/Pods-CenterPoint-CenterPointUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E7E5FCB6126C1149B44F7EE /* Pods_CenterPoint_CenterPointUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CenterPoint_CenterPointUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C681168B103ACF2EABADFE /* Pods-CenterPointTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CenterPointTests.debug.xcconfig"; path = "Target Support Files/Pods-CenterPointTests/Pods-CenterPointTests.debug.xcconfig"; sourceTree = "<group>"; };
+		89A7E5AF72B869CD69DD6CC4 /* Pods-CenterPoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CenterPoint.release.xcconfig"; path = "Target Support Files/Pods-CenterPoint/Pods-CenterPoint.release.xcconfig"; sourceTree = "<group>"; };
+		C1B2F64625ECFACB005622FD /* CenterPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CenterPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B2F64925ECFACB005622FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1B2F64B25ECFACB005622FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C1B2F64D25ECFACB005622FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1B2F65025ECFACB005622FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1B2F65225ECFACD005622FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1B2F65525ECFACD005622FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1B2F65725ECFACD005622FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1B2F65C25ECFACD005622FD /* CenterPointTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CenterPointTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B2F66025ECFACD005622FD /* CenterPointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterPointTests.swift; sourceTree = "<group>"; };
+		C1B2F66225ECFACD005622FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1B2F66725ECFACD005622FD /* CenterPointUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CenterPointUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B2F66B25ECFACD005622FD /* CenterPointUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterPointUITests.swift; sourceTree = "<group>"; };
+		C1B2F66D25ECFACD005622FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D84081250FFDCFABBEBAD433 /* Pods-CenterPoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CenterPoint.debug.xcconfig"; path = "Target Support Files/Pods-CenterPoint/Pods-CenterPoint.debug.xcconfig"; sourceTree = "<group>"; };
+		E81E8D9F863EB0A109A95D01 /* Pods-CenterPointTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CenterPointTests.release.xcconfig"; path = "Target Support Files/Pods-CenterPointTests/Pods-CenterPointTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1B2F64325ECFACB005622FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0363AB623A79A2DFD69142D1 /* Pods_CenterPoint.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B2F65925ECFACD005622FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6BEEC75F830EE0152CBA60D /* Pods_CenterPointTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B2F66425ECFACD005622FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2673C7D763AE9E34AAAB8ABB /* Pods_CenterPoint_CenterPointUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		809C276EFB1FCE13C3B072C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D84081250FFDCFABBEBAD433 /* Pods-CenterPoint.debug.xcconfig */,
+				89A7E5AF72B869CD69DD6CC4 /* Pods-CenterPoint.release.xcconfig */,
+				7946442BC8E8931EFA34C358 /* Pods-CenterPoint-CenterPointUITests.debug.xcconfig */,
+				0F1CA94128354BF9B9C76A22 /* Pods-CenterPoint-CenterPointUITests.release.xcconfig */,
+				83C681168B103ACF2EABADFE /* Pods-CenterPointTests.debug.xcconfig */,
+				E81E8D9F863EB0A109A95D01 /* Pods-CenterPointTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C1B2F63D25ECFACB005622FD = {
+			isa = PBXGroup;
+			children = (
+				C1B2F64825ECFACB005622FD /* CenterPoint */,
+				C1B2F65F25ECFACD005622FD /* CenterPointTests */,
+				C1B2F66A25ECFACD005622FD /* CenterPointUITests */,
+				C1B2F64725ECFACB005622FD /* Products */,
+				809C276EFB1FCE13C3B072C7 /* Pods */,
+				D1E7B53BE60EF08A4326777E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C1B2F64725ECFACB005622FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1B2F64625ECFACB005622FD /* CenterPoint.app */,
+				C1B2F65C25ECFACD005622FD /* CenterPointTests.xctest */,
+				C1B2F66725ECFACD005622FD /* CenterPointUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1B2F64825ECFACB005622FD /* CenterPoint */ = {
+			isa = PBXGroup;
+			children = (
+				C1B2F64925ECFACB005622FD /* AppDelegate.swift */,
+				C1B2F64B25ECFACB005622FD /* SceneDelegate.swift */,
+				C1B2F64D25ECFACB005622FD /* ViewController.swift */,
+				C1B2F64F25ECFACB005622FD /* Main.storyboard */,
+				C1B2F65225ECFACD005622FD /* Assets.xcassets */,
+				C1B2F65425ECFACD005622FD /* LaunchScreen.storyboard */,
+				C1B2F65725ECFACD005622FD /* Info.plist */,
+			);
+			path = CenterPoint;
+			sourceTree = "<group>";
+		};
+		C1B2F65F25ECFACD005622FD /* CenterPointTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1B2F66025ECFACD005622FD /* CenterPointTests.swift */,
+				C1B2F66225ECFACD005622FD /* Info.plist */,
+			);
+			path = CenterPointTests;
+			sourceTree = "<group>";
+		};
+		C1B2F66A25ECFACD005622FD /* CenterPointUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1B2F66B25ECFACD005622FD /* CenterPointUITests.swift */,
+				C1B2F66D25ECFACD005622FD /* Info.plist */,
+			);
+			path = CenterPointUITests;
+			sourceTree = "<group>";
+		};
+		D1E7B53BE60EF08A4326777E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AECA60251E43A3F93159E00 /* Pods_CenterPoint.framework */,
+				7E7E5FCB6126C1149B44F7EE /* Pods_CenterPoint_CenterPointUITests.framework */,
+				3C5F86D8B93F034FCB8CF7C7 /* Pods_CenterPointTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1B2F64525ECFACB005622FD /* CenterPoint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1B2F67025ECFACD005622FD /* Build configuration list for PBXNativeTarget "CenterPoint" */;
+			buildPhases = (
+				F330D40BF28EB5C03A94065A /* [CP] Check Pods Manifest.lock */,
+				C1B2F64225ECFACB005622FD /* Sources */,
+				C1B2F64325ECFACB005622FD /* Frameworks */,
+				C1B2F64425ECFACB005622FD /* Resources */,
+				4C560929C2B574475AB9DFBB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CenterPoint;
+			productName = CenterPoint;
+			productReference = C1B2F64625ECFACB005622FD /* CenterPoint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1B2F65B25ECFACD005622FD /* CenterPointTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1B2F67325ECFACD005622FD /* Build configuration list for PBXNativeTarget "CenterPointTests" */;
+			buildPhases = (
+				42337019953B10511366DB92 /* [CP] Check Pods Manifest.lock */,
+				C1B2F65825ECFACD005622FD /* Sources */,
+				C1B2F65925ECFACD005622FD /* Frameworks */,
+				C1B2F65A25ECFACD005622FD /* Resources */,
+				FB79142D3996737A053AF696 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1B2F65E25ECFACD005622FD /* PBXTargetDependency */,
+			);
+			name = CenterPointTests;
+			productName = CenterPointTests;
+			productReference = C1B2F65C25ECFACD005622FD /* CenterPointTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1B2F66625ECFACD005622FD /* CenterPointUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1B2F67625ECFACD005622FD /* Build configuration list for PBXNativeTarget "CenterPointUITests" */;
+			buildPhases = (
+				D6215F26C016197768A402CA /* [CP] Check Pods Manifest.lock */,
+				C1B2F66325ECFACD005622FD /* Sources */,
+				C1B2F66425ECFACD005622FD /* Frameworks */,
+				C1B2F66525ECFACD005622FD /* Resources */,
+				94279D36883881400E3459C5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1B2F66925ECFACD005622FD /* PBXTargetDependency */,
+			);
+			name = CenterPointUITests;
+			productName = CenterPointUITests;
+			productReference = C1B2F66725ECFACD005622FD /* CenterPointUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1B2F63E25ECFACB005622FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C1B2F64525ECFACB005622FD = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					C1B2F65B25ECFACD005622FD = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C1B2F64525ECFACB005622FD;
+					};
+					C1B2F66625ECFACD005622FD = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C1B2F64525ECFACB005622FD;
+					};
+				};
+			};
+			buildConfigurationList = C1B2F64125ECFACB005622FD /* Build configuration list for PBXProject "CenterPoint" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1B2F63D25ECFACB005622FD;
+			productRefGroup = C1B2F64725ECFACB005622FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1B2F64525ECFACB005622FD /* CenterPoint */,
+				C1B2F65B25ECFACD005622FD /* CenterPointTests */,
+				C1B2F66625ECFACD005622FD /* CenterPointUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1B2F64425ECFACB005622FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B2F65625ECFACD005622FD /* LaunchScreen.storyboard in Resources */,
+				C1B2F65325ECFACD005622FD /* Assets.xcassets in Resources */,
+				C1B2F65125ECFACB005622FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B2F65A25ECFACD005622FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B2F66525ECFACD005622FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42337019953B10511366DB92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CenterPointTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C560929C2B574475AB9DFBB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CenterPoint/Pods-CenterPoint-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CenterPoint/Pods-CenterPoint-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CenterPoint/Pods-CenterPoint-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94279D36883881400E3459C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CenterPoint-CenterPointUITests/Pods-CenterPoint-CenterPointUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CenterPoint-CenterPointUITests/Pods-CenterPoint-CenterPointUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CenterPoint-CenterPointUITests/Pods-CenterPoint-CenterPointUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6215F26C016197768A402CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CenterPoint-CenterPointUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F330D40BF28EB5C03A94065A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CenterPoint-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB79142D3996737A053AF696 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CenterPointTests/Pods-CenterPointTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CenterPointTests/Pods-CenterPointTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CenterPointTests/Pods-CenterPointTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1B2F64225ECFACB005622FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B2F64E25ECFACB005622FD /* ViewController.swift in Sources */,
+				C1B2F64A25ECFACB005622FD /* AppDelegate.swift in Sources */,
+				C1B2F64C25ECFACB005622FD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B2F65825ECFACD005622FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B2F66125ECFACD005622FD /* CenterPointTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1B2F66325ECFACD005622FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B2F66C25ECFACD005622FD /* CenterPointUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1B2F65E25ECFACD005622FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1B2F64525ECFACB005622FD /* CenterPoint */;
+			targetProxy = C1B2F65D25ECFACD005622FD /* PBXContainerItemProxy */;
+		};
+		C1B2F66925ECFACD005622FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1B2F64525ECFACB005622FD /* CenterPoint */;
+			targetProxy = C1B2F66825ECFACD005622FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1B2F64F25ECFACB005622FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1B2F65025ECFACB005622FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1B2F65425ECFACD005622FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1B2F65525ECFACD005622FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1B2F66E25ECFACD005622FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1B2F66F25ECFACD005622FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1B2F67125ECFACD005622FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D84081250FFDCFABBEBAD433 /* Pods-CenterPoint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7GUZQPQHZ;
+				INFOPLIST_FILE = CenterPoint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = namkibeom.CenterPoint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1B2F67225ECFACD005622FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89A7E5AF72B869CD69DD6CC4 /* Pods-CenterPoint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7GUZQPQHZ;
+				INFOPLIST_FILE = CenterPoint/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = namkibeom.CenterPoint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C1B2F67425ECFACD005622FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83C681168B103ACF2EABADFE /* Pods-CenterPointTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7GUZQPQHZ;
+				INFOPLIST_FILE = CenterPointTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = namkibeom.CenterPointTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CenterPoint.app/CenterPoint";
+			};
+			name = Debug;
+		};
+		C1B2F67525ECFACD005622FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E81E8D9F863EB0A109A95D01 /* Pods-CenterPointTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7GUZQPQHZ;
+				INFOPLIST_FILE = CenterPointTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = namkibeom.CenterPointTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CenterPoint.app/CenterPoint";
+			};
+			name = Release;
+		};
+		C1B2F67725ECFACD005622FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7946442BC8E8931EFA34C358 /* Pods-CenterPoint-CenterPointUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7GUZQPQHZ;
+				INFOPLIST_FILE = CenterPointUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = namkibeom.CenterPointUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CenterPoint;
+			};
+			name = Debug;
+		};
+		C1B2F67825ECFACD005622FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F1CA94128354BF9B9C76A22 /* Pods-CenterPoint-CenterPointUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7GUZQPQHZ;
+				INFOPLIST_FILE = CenterPointUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = namkibeom.CenterPointUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CenterPoint;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1B2F64125ECFACB005622FD /* Build configuration list for PBXProject "CenterPoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B2F66E25ECFACD005622FD /* Debug */,
+				C1B2F66F25ECFACD005622FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1B2F67025ECFACD005622FD /* Build configuration list for PBXNativeTarget "CenterPoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B2F67125ECFACD005622FD /* Debug */,
+				C1B2F67225ECFACD005622FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1B2F67325ECFACD005622FD /* Build configuration list for PBXNativeTarget "CenterPointTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B2F67425ECFACD005622FD /* Debug */,
+				C1B2F67525ECFACD005622FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1B2F67625ECFACD005622FD /* Build configuration list for PBXNativeTarget "CenterPointUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1B2F67725ECFACD005622FD /* Debug */,
+				C1B2F67825ECFACD005622FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1B2F63E25ECFACB005622FD /* Project object */;
+}
